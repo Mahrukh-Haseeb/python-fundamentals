@@ -9,22 +9,22 @@
 
 # a) Importing the entire module:
 
-import math
+# import math
 # print(math.sqrt(25))
 # print(math.pi)
 
 # # b) Importing the entire module with an alias:
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 # data = {'col1': [1, 2], 'col2': [3, 4]}
 # df = pd.DataFrame(data)
 # print(df)
 
 # c) Importing specific items from a module:
-# from math import sqrt, pi
+from math import sqrt, pi
 
-# print(sqrt(25))
-# print(pi)
+print(sqrt(25))
+print(pi)
 
 
 
@@ -55,7 +55,7 @@ import numpy as np
 # For numerical analysis:
 
 
-arr = np.array([10, 20, 30, 40])
+# arr = np.array([10, 20, 30, 40])
 
 
 # print(arr * 2)        
@@ -72,6 +72,7 @@ arr = np.array([10, 20, 30, 40])
 
 # Syntax Error	
 # Runtime Error (Exception)	
+
 # print("Start")
 # x = int(input("Enter a number: "))
 # print(10 / x)
@@ -118,33 +119,33 @@ arr = np.array([10, 20, 30, 40])
 
 # -------------------------------------------
 
-while True:  # Loop until valid input and successful division
-    try:
-        # Ask user for two numbers
-        numerator = float(input("Enter the numerator: "))
-        denominator = float(input("Enter the denominator: "))
+# while True:  # Loop until valid input and successful division
+#     try:
+#         # Ask user for two numbers
+#         numerator = float(input("Enter the numerator: "))
+#         denominator = float(input("Enter the denominator: "))
 
-        # Attempt division
-        result = numerator / denominator
+#         # Attempt division
+#         result = numerator / denominator
 
-    except ValueError:
-        # Handles invalid (non-numeric) inputs like letters or symbols
-        print("Invalid input! Please enter numeric values only.\n")
+#     except ValueError:
+#         # Handles invalid (non-numeric) inputs like letters or symbols
+#         print("Invalid input! Please enter numeric values only.\n")
 
-    except ZeroDivisionError:
-        # Handles division by zero
-        print("Division by zero is not allowed! Please try again.\n")
+#     except ZeroDivisionError:
+#         # Handles division by zero
+#         print("Division by zero is not allowed! Please try again.\n")
 
-    else:
-        # Executes only if no error occurs
-        print(f"Division successful! {numerator} ÷ {denominator} = {result}")
-        break  # Exit loop when everything is successful
+#     else:
+#         # Executes only if no error occurs
+#         print(f"Division successful! {numerator} ÷ {denominator} = {result}")
+#         break  # Exit loop when everything is successful
 
-    finally:
-        # Runs every time, even after an error
-        print("Attempt complete.\n")
+#     finally:
+#         # Runs every time, even after an error
+#         print("Attempt complete.\n")
 
-print("Program finished successfully. Goodbye!")
+# print("Program finished successfully. Goodbye!")
 
 
 
