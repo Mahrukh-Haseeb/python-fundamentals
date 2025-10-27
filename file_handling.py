@@ -282,13 +282,7 @@
 # c) Hello Ali None
 # d) Error
 
-
-
-
-
-
-
-
+#--------Correct--------
 # def greet(name):
 #     return f"Hello {name}"
 

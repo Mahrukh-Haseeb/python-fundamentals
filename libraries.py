@@ -21,10 +21,10 @@
 # print(df)
 
 # c) Importing specific items from a module:
-from math import sqrt, pi
+# from math import sqrt, pi
 
-print(sqrt(25))
-print(pi)
+# print(sqrt(25))
+# print(pi)
 
 
 
