@@ -24,14 +24,14 @@ print(movies)
 nested_list.append([5, 6])
 print(nested_list)
 
-# #Extend
+# Extend
 
 numbers.extend([8, 9])
 print(numbers)
 movies.extend(["Tenet", "Memento"])
 print(movies)
 
-# #Insert
+# Insert
 
 nested_list = [1, [2, 3], 4]
 movies.insert(1, "The Dark Knight")
@@ -40,31 +40,31 @@ nested_list.insert(1, [0])
 print(nested_list)
 
 
-# # Remove
+# Remove
 numbers = [1, 2, 3, 4, 6, 5, 6]
 numbers.remove(6)
 print(numbers)
 
 
-# # Reverse
+# Reverse
 
 numbers.reverse()
 print(numbers)
 mixed_list.reverse()
 print(mixed_list)
 
-# # Index
+# Index
 
 print(movies.index("Inception"))  
 
-# # Count
+# Count
 
 print(numbers.count(6))
 
 print(movies.count("Inception"))
 
 
-# # Slicing
+# Slicing
 
 # list[start:end]
 
@@ -94,9 +94,9 @@ print(type(letters))
 
 
 
-# # list comprehension
+# ------------------ list comprehension---------------------
 
-# # [expression for item in iterable]
+# [expression for item in iterable]
 numbers = [1, 2, 3, 4, 6, 5, 6]
 double = []
 for n in numbers:

@@ -34,9 +34,6 @@
 # especially when your data looks like a table (rows and columns).
 
 
-
-
-
 # Create a DataFrame (like an Excel sheet)
 # data = {
 #     "Name": ["Alice", "Bob", "Charlie"],
@@ -91,8 +88,6 @@
 #     print("Oops! Something went wrong.")
     
 
-
-
 # try:
 #     num = int(input("Enter a number: "))
 #     print(10 / num)
@@ -100,7 +95,6 @@
 #     print("Error: Please enter a valid number.")
 # except ZeroDivisionError:
 #     print("Error: You cannot divide by zero!")
-
 
 
 # try:
@@ -146,8 +140,6 @@
 #         print("Attempt complete.\n")
 
 # print("Program finished successfully. Goodbye!")
-
-
 
 
 
