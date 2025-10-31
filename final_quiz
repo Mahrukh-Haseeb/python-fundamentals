@@ -1,0 +1,101 @@
+# What will be the output of this code?
+# x = 10
+# y = 3
+# print(x % y)
+
+
+
+# Which of the following is NOT a valid variable name?
+
+# a) my_name
+# b) 2nd_name
+# c) userName
+# d) _address
+
+
+
+# What does input() always return?
+
+# a) Integer
+# b) Float
+# c) String
+# d) Depends on user input
+
+
+
+# What is the output of this code?
+# print("Hello" * 3)
+
+
+# Which operator is used for exponentiation (power)?
+
+# a) ^
+# b) **
+# c) *
+# d) %
+
+
+# Which of these is a mutable data type?
+
+# a) tuple
+# b) string
+# c) list
+# d) int
+
+
+# What is the output?
+# count = 0
+# while count < 3:
+#     count += 1
+# print(count)
+
+
+# What will this print?
+# def add(a, b=2):
+#     return a + b
+
+# print(add(3))
+# print(add(3, 5))
+
+
+
+# What does this code do?
+# try:
+#     x = int("hello")
+# except ValueError:
+#     print("Invalid conversion")
+
+
+
+# What is Encapsulation?
+
+# a) Hiding data and methods
+# b) Storing data in tuples
+# c) Reusing code in new classes
+# d) Using one method name for many behaviors
+
+
+
+# Which OOP concept allows a subclass to use methods from a parent class?
+
+# a) Polymorphism
+# b) Inheritance
+# c) Encapsulation
+# d) Abstraction
+
+
+# What is the command to create a virtual environment in Python (Windows)?
+
+# a) python create venv
+# b) python -m venv env
+# c) pip install venv
+# d) venv -python env
+
+
+
+# What command installs the pandas library inside your virtual environment?
+
+# a) install pandas
+# b) pip install pandas
+# c) python pandas install
+# d) pip setup pandas

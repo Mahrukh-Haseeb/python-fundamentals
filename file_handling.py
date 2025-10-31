@@ -30,16 +30,12 @@
 # file.close()
 
 
-
 # with open("example.txt", "w") as file:
 #     file.write("This is the first line.\n")
 #     file.write("This is the second line.\n")
 
 
-
 # print("File created and automatically closed!")
-
-
 
 
 # Example 3  Appending to a file
@@ -49,13 +45,10 @@
 # print("Data appended successfully!")
 
 
-
-
 # Context Manager
 # The with statement in Python is something called a context manager.
 # with open("notes.txt", "r") as file:
 #     data = file.read()
-
 
 
 # try:
@@ -89,7 +82,6 @@
 # with open("mynotes.txt", "r") as file:
 #     for line in file:
 #         print("-", line.strip())
-
 
 
 
@@ -263,7 +255,6 @@
 # b) 2
 # c) None
 # d) Error
-
 
 
 
