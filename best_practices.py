@@ -86,12 +86,12 @@
 
 # Don't put all your code into one giant file.
 
-# Split it into smaller files and fucntions that work together.
+# Split it into smaller files and functions that work together.
 
 
 #-----------------------------------------------------
 
-import this
+import this  # The Zen of Python (19 guiding principles for writing Python code)
 
 # ==================Version Control=======================
 
